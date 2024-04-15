@@ -1,0 +1,47 @@
+{
+    "points": [
+        "Customer base: primarily consists of professionals aged between 30-55 years.",
+        "Gender split: 60% male and 40% female.",
+        "Location: urban areas with high population density and strong professional presence.",
+        "Age trend: a gradual increase in the number of customers over the last 5 years, with a significant growth in the age group of 40-45 years."
+    ],
+    "summary": "Our formal clothing brand caters to a demographic of professionals aged between 30-55 years. The customer base is evenly split between males and females. Our business has seen a steady growth over the last 5 years, with a noticeable increase in the number of customers in the age group of 40-45.",
+    "field_data": {
+        "Customer Demographics": {
+            "2019": {
+                "age_group_30-35": "25%",
+                "age_group_36-40": "35%",
+                "age_group_41-45": "30%",
+                "age_group_46-50": "10%",
+                "age_group_51+": "10%"
+            },
+            "2020": {
+                "age_group_30-35": "23%",
+                "age_group_36-40": "37%",
+                "age_group_41-45": "32%",
+                "age_group_46-50": "12%",
+                "age_group_51+": "6%"
+            }
+        },
+        "Gender Split": {
+            "2019": {
+                "male": "61%",
+                "female": "39%"
+            },
+            "2020": {
+                "male": "59%",
+                "female": "41%"
+            }
+        },
+        "Location": {
+            "2019": {
+                "urban": "85%",
+                "suburban": "15%"
+            },
+            "2020": {
+                "urban": "86%",
+                "suburban": "14%"
+            }
+        }
+    }
+}
