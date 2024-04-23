@@ -49,3 +49,11 @@ class SimpleExecutorSchema(BaseModel):
     field_data: Dict[str, str] = Field(
         description="A nested dictinory of year-on-year data of different fields, where keys of outer dictionary is the strings of the fileds and values of outer dictionary are year on year data for that fields. The keys of inner dictionary are the strings of years and values are data for that year. The keys that are fields should be well descriptive."
     )
+
+
+class WebSearchQuery(BaseModel):
+    """Web search Query to get information for given task"""
+
+    queries: List[str] = Field(
+        description="List of 3 queries to give web-search-engine (DuckDuckGo) to get information on given task."
+    )
